@@ -1,5 +1,5 @@
 import rospy
-from std_mssgs.msg import String
+from std_msgs.msg import String
 
 rospy.init_node('publisher_node')
 rospy.loginfo('pulisher node started. now publisher messeage')
